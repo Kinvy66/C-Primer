@@ -3,13 +3,17 @@ int main()
 {
     int num1;
     int num2;
+    int temp;
     std::cout << "Enter two numbers: ";
     std::cin >> num1 >> num2;
-    int val = num1;
-    while (num2 >= val)
+    if(num1 > num2) {   //互换 n1,n2使得 n1 < n2
+        temp = num1;
+        num1 = num2;
+        num2 = temp;
+    }
+    while (num1 <= num2)
     {
         std::cout << num1++ << std::endl;
-        num2--;
     }
 
     return 0;
