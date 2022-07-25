@@ -1,6 +1,6 @@
 #include <iostream>
 
-struct Foo {}
+struct Foo {};
 
 int main()
 {
