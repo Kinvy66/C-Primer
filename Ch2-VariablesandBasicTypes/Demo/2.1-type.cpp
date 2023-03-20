@@ -5,7 +5,7 @@ using namespace std;
 // typedef numbere uu;
 
 int init;
-extern int i = 1; //错误，给i赋值extern失效
+//extern int i = 1; //错误，给i赋值extern失效
 struct A {
 int m;
 void print()
@@ -29,8 +29,7 @@ void test01()
 
 int main()
 {
-    test();
-    cout << i << endl;
 
+    test();
     return 0;
 }

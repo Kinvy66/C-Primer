@@ -16,7 +16,7 @@ int main()
     string s = "hea";
     vector<string> vs;
     for (int i; i < s.size(); ++i) {
-        vs.pop_back(s[i]);
+        vs.pop_back();
     }
     return 0;
 }

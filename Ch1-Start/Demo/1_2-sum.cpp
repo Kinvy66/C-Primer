@@ -1,5 +1,10 @@
 #include <iostream>
-int main()
+
+/*
+ * 注释1
+ * 注释2
+ */
+int main()      //////////////// main 函数
 {
     std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;
